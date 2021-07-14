@@ -107,85 +107,11 @@ class Site extends React.Component<MyProps & RouteComponentProps<RouterParams>, 
             </div>
 
           </div>
-          {/*  <div className=" site-content">
-            <h2>
-              City Name
-              <br></br>
-            </h2>
-            <input className="input-title" onChange={this.change} name="name" type="text" />
 
-
-
-
-          </div> */}
-          {/*   <div className="site-content">
-            <h2>
-              City Image
-              <br></br>
-              <textarea onChange={this.change} className="input-desc" name="img" rows={5} cols={60} />
-            </h2>
-          </div>
-          <div className="site-image site-content">
-            <h2>
-              City Description
-              <br></br>
-              <textarea onChange={this.change} className="input-desc" name="desc" rows={3} cols={50} />
-            </h2>
-
-          </div>
-
-
-          <div className="site-content">
-            <h2>
-              Lat
-              <br></br>
-              <input className="input-title" onChange={this.change} name="name" type="text" />
-            </h2>
-          </div>
-          <div className="site-content">
-            <h2>
-              Long
-              <br></br>
-              <input className="input-title" onChange={this.change} name="name" type="text" />
-            </h2>
-          </div>
-          <div className="site-content">
-            <h2>
-              Preview
-              <br></br>
-              <input className="input-button" onChange={this.change} name="name" value="Show Preview" type="button" />
-            </h2>
-          </div> */}
         </div>
 
 
-        {/*  <div className="title-preview">
-          Preview
-        </div>
-        <div className="site-top" >
-          <div className="site-image site-content">
-            <h2>
-              City Name
-              <br></br>
-              <input value={this.state.name} className="input-title input-desc-preview " onChange={this.change} name="name" type="text" />
-            </h2>
 
-
-
-          </div>
-          <div className="site-image">
-            {this.state.img ? <img className=" " src={this.state.img}></img> : null}
-          </div>
-          <div className="site-image site-content">
-            <h2>
-              City Description
-              <br></br>
-
-              <textarea onChange={this.change} value={this.state.desc} className="input-desc-preview" name="desc" rows={3} cols={50} />
-            </h2>
-
-          </div>
-        </div> */}
 
       </div>
     );
